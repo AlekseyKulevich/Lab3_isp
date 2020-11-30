@@ -4,22 +4,10 @@
 
  Структура программы:
 Проект содержит следующие папки и классы:
-Папка Options, содержит следующие классы:
--Options
--ArchiveOptions
-Папка FileOperations, содержит следующие классы:
--ArchiveManager
--EncryptManager
-Папка Parsers, содержит:
--класс ConfigurationManager
--интерфейс IParser
--класс ParserJson
--класс ParserXML
-Классы:
--Logger
--Program
--Service1
--Installer1
+Папка Options, содержит следующие классы: Options, ArchiveOptions;
+Папка FileOperations, содержит следующие классы: ArchiveManager, EncryptManager;
+Папка Parsers, содержит: класс ConfigurationManager, интерфейс IParser, класс ParserJson, класс ParserXML;
+Классы: Logger, Program, Service1, Installer1;
 Также проект содержит файлы XMLFile.xml, XMLFile.xsd, JsonFile.json
 
 Особенности программы:
